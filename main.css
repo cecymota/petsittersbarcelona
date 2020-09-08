@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro';
+    font-size: 17px;
+    margin: 0;
+}
+
+.overlay {
+    position: relative;
+    height: 470px;
+    background-size: cover;
+    background-image: url(images/_MG_0989.jpg);
+    opacity: 0.7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navegador {
+    text-align: center;
+}
+#menu {
+    background-color: #035b6b;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0em;
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menu {
+    display: inline-block;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #68B8C7;
+}
+.heading__1 {
+    margin-top: -0.3em;
+    margin-bottom: -0.3em;
+}
+.heading__2 {
+    color: #035b6b;
+    margin-top: -0.3em;
+    margin-bottom: -0.3em;
+}
+.heading {
+    font-family: 'PT Mono';
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.4em;
+    position: absolute;
+    top: 434px;
+    left: 88px;
+    border-radius: 2em;
+}
+
+.bloque__1 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bloque__2 {
+    background-color: #68B8C7;
+    margin-top: 0;
+    margin-block-end: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.bloque__3 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bloque__4 {
+    background-color: #68B8C7;
+    margin-top: 0;
+    margin-block-end: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Cuando añadamos el el bloque__4 y programemos el slide
+cambiar el background color a blanco*/
+
+.bloque__5 {
+    /*background-color: #68B8C7;*/
+    margin-top: 0;
+    margin-block-end: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bloque__6 a{
+    text-decoration: none;
+    color: #035b6b;
+}
+
+.titulos {
+    font-family: 'PT Mono';
+    font-size: 25px;
+    color: #035b6b;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+#experiencia, #reviews, #servicios, #fotos, #contactanos {
+    visibility: hidden;
+}
+span {
+    color: #035b6b;
+    font-size: 21px;
+    font-style: bold;
+}
+
+.parrafos__experiencia p {
+    text-align: justify;
+}
+
+.bloque__2 {
+    text-align: center;
+}
+.bloque__2 h3 {
+    padding-top: 10px;
+    font-family: 'PT Mono';
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.2em;
+}
+footer {
+    background-color: #035b6b; 
+    text-align: center;
+    /*position: fixed;
+    top: 95%;
+    width: 100%;*/
+}
+footer p {
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0em;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin: 0em;
+}
+
+.top {
+    background-color: #68B8C7;
+    border: 1px solid #035b6b;
+    padding: 0.3em;
+    position: fixed;
+    top: 92.5%;
+    right: 1%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.top a {
+    color: #fff;
+    text-decoration: none;
+}
